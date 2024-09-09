@@ -1,35 +1,31 @@
-# Pruebas de Búsqueda en Google con Playwright y Python
+# Vehicle Search - Tests with Playwright and Python
 
-Este proyecto utiliza Playwright para automatizar una búsqueda en Google.
+This project uses Playwright to automate simple scenarios from CR Autos web page.
+## Requirements
 
-## Requisitos
-
-- Python 3.7 o superior
+- Python 3.7 or higher.
 - Playwright
 
-## Instalación
+## Installation
 
-### Paso 1: Descomprimir el archivo.
+### Step 1: Unzip the file.
 
-### Paso 2: Instalar Python
-Para instalar Python, descargar: https://www.python.org/downloads/
+### Step 2: Install Python
+To install Python, download from: https://www.python.org/downloads/
 
-Recuerda cual es el alias de la instalación de Python, dependiendo puede ser **python** o **python3**.
+Remember the alias of the Python installation, depending on the system it may be `python` or `python3`.
 
-
-### Paso 3: Crear un entonrno virtual
-Una vez Python instalado, ejecuta: 
+### Step 3: Create a virtual environment
+Once Python is installed, run:
 > **python3** -m venv env   
-> source env/bin/activate # En Windows usa `env\Scripts\activate` 
+> source env/bin/activate # For Windows: `env\Scripts\activate` 
 
-### Paso 4: Instalar los Playwright
+### Step 4: Install Playwright
 > pip install -r requirements.txt
 
-### Paso 5: Instalar los navegadores de Playwright
+### Step 5: Install Playwright browsers
 > **python3** -m playwright install
 
-# Ejecución de las Pruebas
-
-### Paso 1: Ejecutar el script de pruebas
+# Run the test scripts
 
 > **python3** test_website.py
